@@ -1,0 +1,22 @@
+@import "common.css";
+.register_title {
+    text-align: center;
+    border-bottom: none;
+    display: block;
+}
+.lock img {
+    height: 0.6rem;
+}
+.card img {
+    height: 0.55rem;
+}
+.address img{
+    height: 0.55rem;
+}
+.username img{
+    height: 0.55rem;
+}
+.logo .fin_sub img{
+    display: block;
+    height: 0.8rem;
+}

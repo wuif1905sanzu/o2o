@@ -1,0 +1,99 @@
+@import "common.css";
+.logo_title {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 0.5rem;
+    box-sizing: border-box;
+    height:0.8rem;
+
+}
+.logo_title a {
+   height: 0.8rem;
+    color: #c9cbcc;
+}
+.logo_title  .logo_focus {
+    color: #646666;
+    border-bottom: 3px solid #5cb3f1;
+
+}
+
+.call {
+    float: left;
+    height:100%;
+    border: none;
+}
+.phone {
+    width: 100%;
+    height: 1.12rem;
+    line-height: 1.12rem;
+    overflow:hidden;
+    border-bottom: 1px solid #eee;
+}
+.phone_img{
+   float: left;
+    width: 0.48rem;
+    height: 0.65rem;
+    margin-top: 0.3rem;
+    margin-right: 0.28rem;
+}
+.pre_phone {
+    color: #40b1ff;
+    font-size: 0.22rem;
+    font-weight: bold;
+    margin-right: 0.28rem;
+    float: left;
+}
+
+.mes {
+    width: 100%;
+    height: 1.12rem;
+    line-height: 1.12rem;
+    border-bottom: 1px solid #eee;
+    display: flex;
+    align-items: center;
+    margin-left:0.28rem;
+}
+.mes_content {
+    font-size: 0.22rem;
+    /*margin-left: 0.65rem;*/
+    position: relative;
+    height: 100%;
+    border:none;
+
+}
+.mes .spot {
+    width: 0.08rem;
+    height: 0.08rem;
+    background-color: #3bacfe;
+    box-shadow: 0  0.05rem 0.09rem 0
+    rgb(59, 172, 254);
+    border-radius: 50%;
+    margin-right:0.40rem;
+}
+.mes img {
+    margin-top: 0.2rem;
+    width: 2rem;
+    height: 0.8rem;
+    float: right;
+}
+.quicklogin {
+    width: 3.86rem;
+    height: 0.52rem;
+    margin-top: 0.4rem;
+}
+
+.logo .quicklogin img {
+
+    width: 3.86rem;
+    height: 0.52rem;
+}
+.register {
+    padding-top: 0.2rem;
+    width: 100%;
+}
+.register a {
+    color: #3bacfe;
+    float: right;
+    font-size: 0.22rem;
+}
+

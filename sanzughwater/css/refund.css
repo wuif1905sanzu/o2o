@@ -1,0 +1,312 @@
+@import "base.css";
+
+html {
+    font-size: 100px; }
+
+body {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+@media screen and (min-width: 320px) {
+    html {
+        font-size: 42.66667px; } }
+
+@media screen and (min-width: 360px) {
+    html {
+        font-size: 48px; } }
+
+@media screen and (min-width: 375px) {
+    html {
+        font-size: 50px; } }
+
+@media screen and (min-width: 412px) {
+    html {
+        font-size: 54.93333px; } }
+
+@media screen and (min-width: 414px) {
+    html {
+        font-size: 55.2px; } }
+/*rem*/
+header{
+    width: 100%;
+    height: 0.88rem;
+    padding: 0 0.22rem;
+    box-sizing: border-box;
+    display: flex;
+    line-height: 0.88rem;
+    color: #4ebbfe;
+    background: #fbfeff;
+    font-size: 0.38rem;
+    box-shadow: 0 0.03rem 0.43rem 0 rgba(41, 167, 255, 0.13);
+}
+header> span{
+    color: #4ebbfe;
+    letter-spacing: 0.02rem;
+    position: absolute;
+    left: 2.95rem;
+}
+header>a:first-child{
+    color: #4ebbfe;
+}
+
+/*header*/
+.commodity{
+    margin: 0.6rem 0.24rem 0;
+    padding-bottom: 0.4rem;
+    display: flex;
+    border-bottom: 0.01rem solid rgba(0,0,0,0.3);
+}
+
+.pho{
+    width: 1.74rem;
+    height: 1.74rem;
+    box-shadow: 0 0.01rem 0.2rem 0 rgba(223, 223, 223, 0.43);
+    border-radius: 0.1rem;
+    position: relative;
+}
+.pho img{
+    width: 1.2rem;
+    height: 1.25rem;
+    position: absolute;
+    left: 0.2rem;
+    top: 0.26rem;
+}
+.wordT{
+    width: 4.2rem;
+    height: 2.6rem;
+    padding: 0 0 0 .24rem;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.wordB{
+    width: 4.2rem;
+    height: 1.26rem;
+    padding: 0.1rem 0 0 0.2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.name{
+    font-size: 0.3rem;
+    letter-spacing: 0.01rem;
+    color: rgba(0,0,0,0.6);
+    padding-left: 0.08rem;
+    display: flex;
+    justify-content: space-between;
+}
+.model{
+    font-size: 0.26rem;
+    letter-spacing: 0;
+    color: #36a8fe;
+}
+.model::before{
+    content: "";
+    width: 0.05rem;
+    height: 0.05rem;
+    background-color: #44b5ff;
+    box-shadow: 0 0.02rem 0.05rem 0
+    rgba(68, 181, 255, 0.43);
+    border-radius: 0.03rem;
+    position: absolute;
+    left: 0.32rem;
+    top: 0.64rem;
+}
+.nameT{
+    font-size: 0.22rem;
+    letter-spacing: 0.01rem;
+    color: rgba(0,0,0,0.3);
+    display: flex;
+    flex-direction: column;
+}
+.nameT::before{
+    content: "";
+    width: 0.05rem;
+    height: 0.05rem;
+    background-color: #44b5ff;
+    box-shadow: 0 0.02rem 0.05rem 0
+    rgba(68, 181, 255, 0.43);
+    border-radius: 0.03rem;
+    position: absolute;
+    left: 0.32rem;
+    top: 0.96rem;
+}
+.price{
+    width: 4.8rem;
+    font-size: 0.26rem;
+    color: #8a8c8d;
+    position: relative;
+}
+.price::before{
+    content: "";
+    width: 0.05rem;
+    height: 0.05rem;
+    background-color: #44b5ff;
+    box-shadow: 0 0.02rem 0.05rem 0
+    rgba(68, 181, 255, 0.43);
+    border-radius: 0.03rem;
+    position: absolute;
+    left: -0.12rem;
+    top: 0.15rem;
+}
+.num{
+    position: absolute;
+    right: 0;
+    bottom:0;
+}
+.num::before{
+    content: "";
+    width: 0.05rem;
+    height: 0.05rem;
+    background-color: #44b5ff;
+    box-shadow: 0 0.02rem 0.05rem 0
+    rgba(68, 181, 255, 0.43);
+    border-radius: 0.03rem;
+    position: absolute;
+    left: -0.1rem;
+    top: 0.16rem;
+}
+.realPrice{
+    font-size: 0.24rem;
+    letter-spacing: 0.01rem;
+    color: #fbb548;
+    position: absolute;
+    right: -0.8rem;
+    bottom: 0.1rem;
+}
+.reason{
+    margin: 0.4rem 0.24rem 0;
+    padding:0 0 0.34rem 0.2rem;
+    display: flex;
+    border-bottom: 0.01rem solid rgba(0,0,0,0.3);
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.stateL,.stateR{
+    font-size: 0.26rem;
+    color: #474747;
+}
+.inside{
+    font-size: 0.26rem;
+    color: #41b2fc;
+    letter-spacing: 0.01rem;
+}
+
+.iconfont{
+    color: #36a8fe;
+}
+.money{
+    margin: 0.4rem 0.24rem 0;
+    padding :0 0 0.1rem 0.2rem;
+    position: relative;
+}
+.moneyL{
+    font-size: 0.26rem;
+    color: #474747;
+    letter-spacing: 0.02rem;
+}
+.moneyL::before{
+    content: "";
+    width: 0.06rem;
+    height: 0.06rem;
+    background-color: #fcbc41;
+    box-shadow: 0 0.02rem 0.05rem 0
+    rgba(252, 188, 65, 0.43);
+    border-radius: 0.03rem;
+    position: absolute;
+    left: 0.08rem;
+    top: 0.2rem;
+}
+.moneyM{
+    font-size: 0.26rem;
+    color: #fcbc41;
+    letter-spacing: 0.02rem;
+}
+.moneyR{
+    font-size: 0.22rem;
+    color: rgba(0,0,0,0.3);
+    letter-spacing: 0.01rem;
+}
+.moneyB{
+    padding-left: 0.44rem;
+    font-size: 0.32rem;
+    color: #fcbc41;
+    letter-spacing: 0.01rem;
+}
+.explain{
+    width: 6.52rem;
+    height: 1.28rem;
+    margin: 0.24rem 0.24rem 0;
+    padding: 0.14rem 0.24rem;
+    background: rgba(231,246,255,0.5);
+    border-radius: 0.08rem;
+}
+.explain span{
+    font-size: 0.24rem;
+    color: #b9c9d2;
+    letter-spacing: 0.01rem;
+}
+.voucher{
+    margin: 0.3rem 0.24rem 0;
+    padding :0 0 0.2rem 0.2rem;
+    position: relative;
+}
+.voucherL{
+    font-size: 0.26rem;
+    color: #474747;
+    letter-spacing: 0.02rem;
+}
+.voucherL::before{
+    content: "";
+    width: 0.06rem;
+    height: 0.06rem;
+    background-color: #36dd7c;
+    box-shadow: 0 0.02rem 0.05rem 0
+    rgba(54, 221, 124, 0.43);
+    border-radius: 0.03rem;
+    position: absolute;
+    left: 0.08rem;
+    top: 0.2rem;
+}
+.voucherM{
+    font-size: 0.26rem;
+    color: #31d094;
+    letter-spacing: 0.02rem;
+}
+.voucherR{
+    font-size: 0.22rem;
+    color: rgba(0,0,0,0.3);
+    letter-spacing: 0.01rem;
+}
+.camera >i{
+    width: 1rem;
+    height: 1rem;
+    background-image: linear-gradient(90deg, #37e06f 0%, #31d69a 100%), linear-gradient(#36a8fe, #36a8fe);
+    background-blend-mode: normal, normal;
+    box-shadow: 0 0.04rem 0.2rem 0 rgba(55, 223, 116, 0.75);
+    border-radius: 0.1rem;
+}
+.iconfont{
+    width: 0.5rem;
+    height: 0.42rem;
+    background-color: #ffffff;
+}
+.camera >span{
+    width: 4.54rem;
+    height: 0.6rem;
+    background-image: linear-gradient(90deg, #37e06f 0%, #31d69a 100%), linear-gradient(#3bacfe, #3bacfe);
+    background-blend-mode: normal,normal;
+    box-shadow: 0 0.04rem 0.2rem 0 rgba(55, 223, 116, 0.75);
+    border-radius: 0.3rem;
+}
+.xiangji{
+    width: 1rem;
+    height: 1rem;
+}
+.tijiao{
+    width: 4.54rem;
+    height: 1rem;
+    padding: 0.4rem 1rem 0;
+}

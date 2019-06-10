@@ -1,0 +1,81 @@
+header{
+    width: 100%;
+    height: 0.88rem;
+    padding: 0 0.22rem;
+    box-sizing: border-box;
+    line-height: 0.88rem;
+    font-size: 0.38rem;
+    color: #4ebbfe;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0px 3px 43px 0px
+    rgba(41, 167, 255, 0.13);
+}
+header >a{
+    color: #4ebbfe;
+}
+.contentList li{
+    width: 100%;
+    height: auto;
+    margin-top: 0.38rem;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-content: center;
+}
+.contentList >li > p{
+    width: 100%;
+    padding: 0.3rem 0.4rem;
+    font-size: 0.32rem;
+    color: #44b5ff;
+    border-bottom: 0.02rem solid #f1f4f5;
+}
+.contentList li > p > b{
+    font-size: 0.32rem;
+    color: #4f5b64;
+}
+.contentList > p::before{
+    centent:"";
+    width: 10px;
+    height: 5px;
+    background-color: #44b5ff;
+    box-shadow: 0px 2px 5px 0px
+    rgba(68, 181, 255, 0.43);
+    border-radius: 3px;
+    position: absolute;
+    left: 2.4rem;
+    top: 1.2rem;
+}
+.content{
+    width: 100%;
+    height: auto;
+    position: relative;
+    display: flex;
+}
+.content li{
+    width: 100%;
+    height: auto;
+}
+.content li a{
+    width: 2rem;
+    height:1.94rem ;
+    margin-right: 0rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+.content >li >a div{
+    width: 1.13rem;
+    height: 1.13rem;
+    margin: 0 auto;
+
+}
+.content >li >a >p{
+    width: 1.5rem;
+    height: 0.23rem;
+    font-size: 0.24rem;
+    text-align: center;
+    color: #8e9397;
+    margin: 0 auto;
+}
+

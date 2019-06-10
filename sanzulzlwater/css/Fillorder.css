@@ -1,0 +1,188 @@
+@import "general.css";
+
+
+header {
+    font-size: 0.38rem;
+    line-height: 0.88rem;
+    height: 0.88rem;
+    color: #4ebbfe;
+    text-align: center;
+    box-shadow: 0 0.03rem 0.43rem 0 rgba(41, 167, 255, 0.13);
+    display: flex;
+    justify-content: space-between;
+
+}
+
+header .iconfont {
+    line-height: 0.88rem;
+    font-size: 1.2rem;
+}
+
+header .iconmore {
+    font-size: 0.6rem;
+    margin-right: 0.44rem;
+}
+header a{
+    height: 1.4rem;
+    color:#4ebbfe;
+}
+.txshdz {
+    width: 100%;
+    height: 0.4rem;
+    margin-top: 0.22rem;
+    padding:  0 0.22rem;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+}
+.txshdz span{
+    font-size: 0.26rem;
+    letter-spacing: 0.01rem;
+    color: rgba(0,0,0,0.4);
+    line-height: 0.4rem;
+}
+.txshdz i{
+    color: #8a8c8d;
+    font-size: 0.4rem;
+}
+
+.huowu{
+    width: 100%;
+    height: 2.32rem;
+    margin-top: 0.22rem;
+    box-sizing: border-box;
+    padding: 0.26rem 0.44rem 0.26rem 0.22rem;
+}
+.xinxi i{
+    color: #8a8c8d;
+    font-size: 0.4rem;
+    line-height: 0.5rem;
+}
+.xinxi li{
+    width: 100%;
+    height: 0.8rem;
+    margin-top: 0.22rem;
+    padding:  0 0.22rem;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 0.02rem solid rgba(0,0,0,0.02);
+}
+.xinxi span{
+    font-size: 0.24rem;
+    letter-spacing: 0.01rem;
+    color: #8a8c8d;
+    line-height: 0.36rem;
+    position: relative;
+    margin-left: 0.14rem;
+}
+.xinxi .s1:before{
+    content: "";
+    position: absolute;
+    width: 0.05rem;
+    height: 0.05rem;
+    top: 0.15rem;
+    left: -0.14rem;
+    border-radius: 0.03rem;
+    box-shadow: 0 0.02rem 0.05rem 0 rgba(68, 181, 255, 0.43);
+    background: #44b5ff;
+}
+.xinxi .s2{
+    font-size: 0.22rem;
+    color: rgba(0,0,0,0.4);
+    margin-left: 3.6rem;
+}
+.xinxi .s3{
+    font-size: 0.22rem;
+    color: rgba(0,0,0,0.4);
+    margin-left: 4.84rem;
+}
+.xinxi .s4{
+    font-size: 0.22rem;
+    color: rgba(0,0,0,0.4);
+    margin-left: 4.6rem;
+}
+.xinxi .s5{
+    font-size: 0.22rem;
+    letter-spacing: 0.01rem;
+    color: rgba(0,0,0,0.4);
+    margin-right: 3.2rem;
+}
+.xinxi .s6{
+    font-size: 0.26rem;
+    color: #8a8c8d;
+    margin-right: 0.12rem;
+}
+.xinxi .s7{
+    font-size: 0.26rem;
+    color: #b9c9d2;
+    position: absolute;
+    left: 3.64rem;
+    line-height: 0.5rem;
+}
+
+.xinxi .s8{
+    font-size: 0.26rem;
+    color: #36a8fe;
+    position: absolute;
+    right: 0.56rem;
+    line-height: 0.5rem;
+}
+.menu {
+    padding: 0 0.22rem;
+    width: 100%;
+    height: 0.98rem;
+    display: flex;
+    background-color: #f1f9ff;
+    position: fixed;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    bottom: 0;
+
+}
+
+.menu span {
+    text-align: center;
+    line-height: 0.98rem;
+}
+
+.menu .s1 {
+    font-size: 0.24rem;
+    letter-spacing: 0.13rem;
+    color: #3bacfe;
+    opacity: 0.6;
+    position: relative;
+    margin-left: 0.15rem;
+}
+
+.menu .s1:before {
+    content: "";
+    position: absolute;
+    width: 0.05rem;
+    height: 0.05rem;
+    top: 0.46rem;
+    left: -0.14rem;
+    border-radius: 0.03rem;
+    background: #44b5ff;
+    box-shadow: 0 0.02rem 0.05rem 0 rgba(68, 181, 255, 0.43);
+}
+
+.menu .s2 {
+    font-size: 0.36rem;
+    color: #36a8fe;
+}
+
+.menu .s3 {
+    font-size: 0.2rem;
+    color: #ffffff;
+    letter-spacing: 0.01rem;
+    margin-left: 1.44rem;
+    margin-top: 0.2rem;
+    width: 3.5rem;
+    height: 0.6rem;
+    background: #3bacfe;
+    box-shadow: 0 0.05rem 0.12rem 0 rgba(59, 172, 254, 0.43);
+    border-radius: 0.3rem;
+    line-height: 0.6rem;
+
+}

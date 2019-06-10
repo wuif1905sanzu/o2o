@@ -24,4 +24,6 @@ header{
 header >a{
     color: #4ebbfe;
 }
-
+.money{
+    height: 12.5rem;
+}

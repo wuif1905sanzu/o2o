@@ -97,3 +97,6 @@ header >a{
     top: 0;
     right: 0.6rem;
 }
+.contentList a{
+    color: #36a8fe;
+}

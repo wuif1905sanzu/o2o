@@ -1,0 +1,260 @@
+@import "base.css";
+html {
+    font-size: 100px; }
+
+body {
+    font-size: 16px; }
+
+@media screen and (min-width: 320px) {
+    html {
+        font-size: 42.66667px; } }
+
+@media screen and (min-width: 360px) {
+    html {
+        font-size: 48px; } }
+
+@media screen and (min-width: 375px) {
+    html {
+        font-size: 50px; } }
+
+@media screen and (min-width: 412px) {
+    html {
+        font-size: 54.93333px; } }
+
+@media screen and (min-width: 414px) {
+    html {
+        font-size: 55.2px; } }
+/*rem*/
+header{
+    width: 100%;
+    height: 0.88rem;
+    padding: 0 0.22rem;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    line-height: 0.88rem;
+    color: #4ebbfe;
+    background: #fbfeff;
+
+    font-size: 0.38rem;
+    box-shadow: 0 0.03rem 0.43rem 0 rgba(41, 167, 255, 0.13);
+}
+header> span{
+    color: #4ebbfe;
+}
+header>a:first-child{
+    color: #4ebbfe;
+}
+
+/*header*/
+
+picture{
+    padding: 1.7rem 2.14rem ;
+    display: flex;
+
+}
+
+picture img{
+    width: 3.01rem;
+    height: 3.62rem;
+}
+/*picture*/
+
+.listItem {
+    height: 2rem;
+    margin: 0 0.25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.info > h1{
+    font-size: 0.3rem;
+    color: rgba(0,0,0,0.6);
+    letter-spacing: 0.01rem;
+}
+.intro{
+    letter-spacing: 0.01rem;
+    font-size: 0.22rem;
+    color: rgba(0,0,0,0.3);
+}
+.intro > span{
+    line-height: 1.5;
+    height: 0.66rem;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp:2;
+    overflow: hidden;
+}
+.tag{
+    padding-bottom: 0.18rem;
+    border-bottom: 0.01rem solid #d8dfe3;
+}
+.tag>span{
+    padding: 0.08rem 0.14rem ;
+    border-radius: 0.18rem;
+    letter-spacing: 1px;
+    margin-right: 0.2rem;
+}
+
+.tag .price{
+    padding: 0;
+    font-size: 0.26rem;
+    color: #fbb548;
+    background: none;
+}
+.tag .deposit{
+    font-size: 0.2rem;
+    color: #41b2fc;
+    background: rgba(65,178,252,0.1);
+    margin-right: 0.3rem;
+}
+.tag .service{
+    font-size: 0.2rem;
+    color: #36d681;
+    background: rgba(54,214,129,0.1);
+}
+.tag > .total{
+    float: right;
+    padding-left: 0.12rem;
+    position: relative;
+}
+.tag > .total::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0.2rem;
+    width: 0.06rem;
+    height: 0.06rem;
+    border-radius: 0.03rem;
+    background: #36d681;
+}
+.total > .sale{
+    font-size: 0.2rem;
+    color: rgba(0,0,0,0.3);
+}
+.total > .num{
+    font-size: 0.24rem;
+    color: #36a8fe;
+}
+.coupon{
+    padding: 0.2rem 1rem;
+    margin: 0 0.25rem;
+    border-bottom: 0.01rem solid #d8dfe3;
+}
+.coupon >a >span{
+    padding: 0.08rem 0.2rem;
+    background-color: #36d681;
+    background-image: linear-gradient(270deg,#ffca3b 0%,#ff933b 100%),linear-gradient(#ffc471,
+    #ffc471);
+    border-radius: 0.32rem;
+}
+h1.title{
+    padding: 0.4rem 0;
+    font-size: 0.32rem;
+    margin: 0 0.25rem;
+    position: relative;
+    color: #41b2fc;
+}
+h1.title >span{
+    padding-left: 0.2rem;
+}
+h1.title >span::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0.6rem;
+    width: 0.1rem;
+    height: 0.06rem;
+    background: #44b5ff;
+    box-shadow: 0 0.02rem 0.05rem 0 rgba(68, 181, 255, 0.43);
+    border-radius: 0.03rem;
+}
+h1.title b{
+    color: #4f5b64;
+}
+h1.title > a{
+    float: right;
+    color: #41b2fc;
+    font-size: 0.22rem;
+}
+
+h1.title > a > i:last-child{
+    opacity: 0.5;
+}
+.review{
+    padding: 0 0.25rem;
+}
+.evaluate{
+    display: flex;
+    padding: 0.2rem 0;
+    border-bottom: 0.01rem solid #d8dfe3;
+}
+.evaluate .info{
+    line-height: 1.8;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.trait >img {
+    width: 0.84rem;
+    height: 0.84rem;
+    border-radius: 0.42rem;
+}
+.details{
+    width: 100%;
+    padding: 0.3rem 0 0 0.3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.details .id{
+    font-size: 0.2rem;
+    letter-spacing: 1px;
+    color: #cfcfcf;
+}
+.details .pho{
+    width: 1.44rem;
+    height: 0.2rem;
+    padding-right: 2rem;
+    float: left;
+    position: relative;
+    overflow: hidden;
+}
+.details .pho >div{
+    width: 1.44rem;
+    height: 0.2rem;
+    position: absolute;
+    left: 0;
+    top: 0;
+    overflow: hidden;
+}
+.details .pho >div [src]{
+    width: 1.44rem;
+    height: 0.2rem;
+    position: absolute;
+    left: 0;
+    top: 0;
+    overflow: hidden;
+}
+.details .time{
+    font-size: 0.22rem;
+    color: #9ed5ff;
+}
+.content{
+    font-size: 0.26rem;
+    color: #000000;
+    padding-left: 0.3rem;
+}
+.add{
+    font-size: 0.22rem;
+    color:rgba(0,0,0,0.3);
+    padding-left: 0.3rem;
+}
+.add >span{
+    padding-right: 0.2rem;
+}
+.sample >img{
+    width: 1.8rem;
+    height: 1.1rem;
+}
